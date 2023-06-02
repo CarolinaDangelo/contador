@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+body {
+    background-color: #f7f0f5;
+    font-family: 'Rye', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #f03976;
+    border-radius: 5px;
+}
+
+.container {
+    border: 2px solid #f03976;
+    border-radius: 25px;
+    padding: 30px 50px 50px;
+    margin: 50px;
+    max-width: 600px;
+    width: 100%;
+  }  
+  
+h1 {
+    color: #f03976;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+
+#counter {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black ;
+    font-size: 2em;
+    font-weight: 800;
+}
+  
+button {
+    background-color: #f03976;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    background-color:#da2b65;
+}
+
+.reiniciar {
+    background-color: #ffffff;
+    color:#f03976;
+    border: 2px solid #f03976;
+    font-weight: bold;
+}
+
+.reiniciar:hover {
+    background-color: #ffffff;
+}
+
+  
+/*------- RESPONSIVE MOBILE -------*/
+
+@media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+    
+    #counter {
+      font-size: 1.5em;
+    }
+    
+    button {
+      padding: 8px 16px;
+      font-size: 0.8em;
+    }
+  }
